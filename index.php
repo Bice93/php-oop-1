@@ -43,4 +43,14 @@ class Movie{
 
 }
 
+//Create objects of the class Movie
+$thrillerMovie = new Movie("Shutter Island", "2010", "2:18");
+var_dump($thrillerMovie);
+
+$horroMovie = new Movie("Sinister", "2012", "1:50");
+var_dump($horroMovie);
+
+$adventureMovie = new Movie("Cast Away", "2000", "2:23");
+var_dump($adventureMovie);
+
 ?>
